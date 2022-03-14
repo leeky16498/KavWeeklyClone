@@ -11,6 +11,11 @@
 		79E6916927DFD97A005FA008 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E6916827DFD97A005FA008 /* ContentView.swift */; };
 		79E6916B27DFD97B005FA008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E6916A27DFD97B005FA008 /* Assets.xcassets */; };
 		79E6916E27DFD97B005FA008 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E6916D27DFD97B005FA008 /* Preview Assets.xcassets */; };
+		79E6917927DFD9AB005FA008 /* Steps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E6917827DFD9AB005FA008 /* Steps.swift */; };
+		79E6917B27DFDAB5005FA008 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E6917A27DFDAB5005FA008 /* Ring.swift */; };
+		79E6917D27DFDAC8005FA008 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E6917C27DFDAC8005FA008 /* HomeView.swift */; };
+		79E6917F27DFE31F005FA008 /* FitnessRingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E6917E27DFE31F005FA008 /* FitnessRingCardView.swift */; };
+		79E6918127DFED8D005FA008 /* FitnessStepGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E6918027DFED8D005FA008 /* FitnessStepGraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		79E6916827DFD97A005FA008 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		79E6916A27DFD97B005FA008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79E6916D27DFD97B005FA008 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79E6917827DFD9AB005FA008 /* Steps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steps.swift; sourceTree = "<group>"; };
+		79E6917A27DFDAB5005FA008 /* Ring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		79E6917C27DFDAC8005FA008 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		79E6917E27DFE31F005FA008 /* FitnessRingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessRingCardView.swift; sourceTree = "<group>"; };
+		79E6918027DFED8D005FA008 /* FitnessStepGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessStepGraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,10 @@
 		79E6916527DFD97A005FA008 /* KavWeeklyClone */ = {
 			isa = PBXGroup;
 			children = (
+				79E6917727DFD990005FA008 /* Utilities */,
+				79E6917627DFD98D005FA008 /* Model */,
+				79E6917527DFD989005FA008 /* ViewModel */,
+				79E6917427DFD985005FA008 /* View */,
 				79E6916627DFD97A005FA008 /* KavWeeklyCloneApp.swift */,
 				79E6916827DFD97A005FA008 /* ContentView.swift */,
 				79E6916A27DFD97B005FA008 /* Assets.xcassets */,
@@ -65,6 +79,39 @@
 				79E6916D27DFD97B005FA008 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79E6917427DFD985005FA008 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79E6917C27DFDAC8005FA008 /* HomeView.swift */,
+				79E6917E27DFE31F005FA008 /* FitnessRingCardView.swift */,
+				79E6918027DFED8D005FA008 /* FitnessStepGraphView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79E6917527DFD989005FA008 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		79E6917627DFD98D005FA008 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79E6917827DFD9AB005FA008 /* Steps.swift */,
+				79E6917A27DFDAB5005FA008 /* Ring.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79E6917727DFD990005FA008 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +185,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				79E6916927DFD97A005FA008 /* ContentView.swift in Sources */,
+				79E6918127DFED8D005FA008 /* FitnessStepGraphView.swift in Sources */,
+				79E6917B27DFDAB5005FA008 /* Ring.swift in Sources */,
+				79E6917927DFD9AB005FA008 /* Steps.swift in Sources */,
+				79E6917D27DFDAC8005FA008 /* HomeView.swift in Sources */,
 				79E6916727DFD97A005FA008 /* KavWeeklyCloneApp.swift in Sources */,
+				79E6917F27DFE31F005FA008 /* FitnessRingCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
